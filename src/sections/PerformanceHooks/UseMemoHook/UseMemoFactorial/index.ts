@@ -1,0 +1,1 @@
+export { UseMemoFactorial } from './UseMemoFactorial'

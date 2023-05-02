@@ -1,0 +1,1 @@
+export { UseEffectFetch } from './UseEffectFetch'

@@ -1,0 +1,1 @@
+export { UseEffectDocumentTitle } from './UseEffectDocumentTitle'

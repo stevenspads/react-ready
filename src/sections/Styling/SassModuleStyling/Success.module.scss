@@ -1,0 +1,16 @@
+$text-color: green;
+$border-color: black;
+
+.Success {
+  padding: 1rem;
+  border: 1px solid $border-color;
+  color: $text-color;
+
+  &.Small {
+    font-size: 10px;
+  }
+
+  &.Large {
+    font-size: 20px;
+  }
+}

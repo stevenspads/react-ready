@@ -1,0 +1,15 @@
+.Success {
+  padding: 1rem;
+  background-color: green;
+  color: white;
+  border-radius: 1rem;
+  margin: 0 0 2rem;
+}
+
+.Success.Small {
+  font-size: 10px;
+}
+
+.Success.Large {
+  font-size: 20px;
+}

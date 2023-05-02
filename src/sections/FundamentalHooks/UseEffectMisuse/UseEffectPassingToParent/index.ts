@@ -1,0 +1,1 @@
+export { UseEffectPassingToParent } from './UseEffectPassingToParent'

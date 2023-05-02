@@ -1,0 +1,1 @@
+export { MemoizeComponent } from './MemoizeComponent'

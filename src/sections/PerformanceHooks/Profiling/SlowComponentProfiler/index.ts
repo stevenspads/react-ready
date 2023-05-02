@@ -1,0 +1,1 @@
+export { SlowComponentProfiler } from './SlowComponentProfiler'

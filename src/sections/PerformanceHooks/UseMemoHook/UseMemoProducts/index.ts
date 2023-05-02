@@ -1,0 +1,1 @@
+export { UseMemoProducts } from './UseMemoProducts'

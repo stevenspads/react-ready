@@ -1,0 +1,1 @@
+export { MultipleSlots } from './MultipleSlots'

@@ -1,0 +1,15 @@
+.Product {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.ProductName {
+  font-weight: bold;
+  background: black;
+  color: white;
+  padding: 1rem;
+}
+
+.ProductPrice {
+  font-style: italic;
+}

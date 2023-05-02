@@ -1,0 +1,1 @@
+export { UseStateObjectMutation } from './UseStateObjectMutation'

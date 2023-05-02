@@ -1,0 +1,1 @@
+export { EventHandlerOnClickDiv } from './EventHandlerOnClickDiv'

@@ -1,0 +1,1 @@
+export { LocalStorageCustomHook } from './LocalStorageCustomHook'
