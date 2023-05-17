@@ -109,6 +109,9 @@ import {
   ExtractProviders,
   MultipleContexts,
   OverrideContext,
+  PropDrilling,
+  PropDrillingCompositionFix,
+  PropDrillingContextFix,
   SimpleContext,
 } from './sections/Context';
 import { NestedProfilers } from './sections/PerformanceHooks/Profiling/NestedProfilers';
@@ -563,6 +566,18 @@ const router = createBrowserRouter([
       {
         path: 'context-reducer',
         element: <ContextReducer />,
+      },
+      {
+        path: 'prop-drilling',
+        element: <PropDrilling />,
+      },
+      {
+        path: 'prop-drilling-context-fix',
+        element: <PropDrillingContextFix />,
+      },
+      {
+        path: 'prop-drilling-composition-fix',
+        element: <PropDrillingCompositionFix />,
       },
     ],
   },

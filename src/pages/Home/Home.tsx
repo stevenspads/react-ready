@@ -412,16 +412,25 @@ const Home = () => {
             <Link to="/context/simple-context">Simple context</Link>
           </li>
           <li>
-            <Link to="/context/override-context">Override Context</Link>
+            <Link to="/context/override-context">Override context</Link>
           </li>
           <li>
-            <Link to="/context/multiple-contexts">Multiple Contexts</Link>
+            <Link to="/context/multiple-contexts">Multiple contexts</Link>
           </li>
           <li>
-            <Link to="/context/extract-providers">Extract Context providers to a component</Link>
+            <Link to="/context/extract-providers">Extract context providers to a component</Link>
           </li>
           <li>
             <Link to="/context/context-reducer">Context and reducer</Link>
+          </li>
+          <li>
+            <Link to="/context/prop-drilling">Prop drilling</Link>
+          </li>
+          <li>
+            <Link to="/context/prop-drilling-context-fix">Prop drilling fixed with context</Link>
+          </li>
+          <li>
+            <Link to="/context/prop-drilling-composition-fix">Prop drilling fixed with composition</Link>
           </li>
         </ul>
       </div>
