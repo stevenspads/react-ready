@@ -8,8 +8,8 @@ const App = () => {
   const [currentUser, setCurrentUser] = useState<User | null>(null);
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
-      <div style={{ backgroundColor: 'lightgray' }}>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <div style={{ background: 'lightgray' }}>
         <Header />
       </div>
       <div style={{ flex: 1 }}>
@@ -24,7 +24,7 @@ const App = () => {
           <Login onLogin={() => setCurrentUser({ name: 'John' })} />
         )}
       </div>
-      <div style={{ backgroundColor: 'lightgray' }}>
+      <div style={{ background: 'lightgray' }}>
         <Footer />
       </div>
     </div>
