@@ -70,7 +70,7 @@ const App = () => {
 const UseCallbackUseEffect = () => {
   return (
     <div className="Example">
-      <h4>The useCallback() hook for useEffect()</h4>
+      <h4>The useCallback() hook with useEffect()</h4>
       <App />
     </div>
   );

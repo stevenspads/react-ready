@@ -62,6 +62,9 @@ const Home = () => {
             <li>
               <Link to="/components/event-handlers/event-handler-onclick-div">onClick event handler on a div</Link>
             </li>
+            <li>
+              <Link to="/components/event-handlers/async-event-handler">Asynchronous event handler</Link>
+            </li>
           </ul>
         </div>
 
@@ -358,10 +361,22 @@ const Home = () => {
           <h3>useCallback()</h3>
           <ul>
             <li>
-              <Link to="/performance-hooks/useCallback/memo">useCallback() with memo()</Link>
+              <Link to="/performance-hooks/usecallback/memo">useCallback() with memo()</Link>
             </li>
             <li>
-              <Link to="/performance-hooks/useCallback/useeffect">useCallback() with useEffect()</Link>
+              <Link to="/performance-hooks/usecallback/useeffect">useCallback() with useEffect()</Link>
+            </li>
+          </ul>
+        </div>
+
+        <div className={styles.SubSection}>
+          <h3>useTransition()</h3>
+          <ul>
+            <li>
+              <Link to="/performance-hooks/usetransition/search">useTransition() for search</Link>
+            </li>
+            <li>
+              <Link to="/performance-hooks/usetransition/tabs">useTransition() for tabs</Link>
             </li>
           </ul>
         </div>

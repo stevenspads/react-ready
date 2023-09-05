@@ -16,12 +16,18 @@ import {
 import { Memo, MemoizeComponent } from './sections/PerformanceHooks/Memo';
 import { UseMemoHook, UseMemoFactorial, UseMemoProducts } from './sections/PerformanceHooks/UseMemoHook';
 import { UseCallbackHook, UseCallbackMemo, UseCallbackUseEffect } from './sections/PerformanceHooks/UseCallbackHook';
+import {
+  UseTransitionHook,
+  UseTransitionSearch,
+  UseTransitionTabs,
+} from './sections/PerformanceHooks/UseTransitionHook';
 import { PerformanceHooks } from './sections/PerformanceHooks';
 import {
   MultipleProfilers,
   ProfilingImprovement,
   Profiling,
   SlowComponentProfiler,
+  NestedProfilers,
 } from './sections/PerformanceHooks/Profiling';
 import {
   CounterCustomHook,
@@ -83,6 +89,7 @@ import {
   ConditionalRenderingTernary,
 } from './sections/Components/ConditionalRendering';
 import {
+  AsyncEventHandler,
   EventHandlerOnClickDiv,
   EventHandlerOutsideJSX,
   EventHandlers,
@@ -114,7 +121,6 @@ import {
   PropDrillingContextFix,
   SimpleContext,
 } from './sections/Context';
-import { NestedProfilers } from './sections/PerformanceHooks/Profiling/NestedProfilers';
 
 const router = createBrowserRouter([
   {
@@ -152,6 +158,10 @@ const router = createBrowserRouter([
           {
             path: 'event-handler-onclick-div',
             element: <EventHandlerOnClickDiv />,
+          },
+          {
+            path: 'async-event-handler',
+            element: <AsyncEventHandler />,
           },
         ],
       },
@@ -470,7 +480,7 @@ const router = createBrowserRouter([
         ],
       },
       {
-        path: 'useCallback',
+        path: 'usecallback',
         element: <UseCallbackHook />,
         children: [
           {
@@ -480,6 +490,20 @@ const router = createBrowserRouter([
           {
             path: 'useeffect',
             element: <UseCallbackUseEffect />,
+          },
+        ],
+      },
+      {
+        path: 'usetransition',
+        element: <UseTransitionHook />,
+        children: [
+          {
+            path: 'search',
+            element: <UseTransitionSearch />,
+          },
+          {
+            path: 'tabs',
+            element: <UseTransitionTabs />,
           },
         ],
       },

@@ -77,7 +77,7 @@ const App = () => {
 const UseCallbackMemo = () => {
   return (
     <div className="Example">
-      <h4>The useCallback() hook for memo()</h4>
+      <h4>The useCallback() hook with memo()</h4>
       <App />
     </div>
   );
