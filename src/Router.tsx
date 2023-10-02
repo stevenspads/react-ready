@@ -121,6 +121,8 @@ import {
   PropDrillingContextFix,
   SimpleContext,
 } from './sections/Context';
+import { UseDeferredValueHook } from './sections/PerformanceHooks/UseDeferredValueHook/UseDeferredValueHook';
+import { UseDeferredValueSearch } from './sections/PerformanceHooks/UseDeferredValueHook';
 
 const router = createBrowserRouter([
   {
@@ -504,6 +506,16 @@ const router = createBrowserRouter([
           {
             path: 'tabs',
             element: <UseTransitionTabs />,
+          },
+        ],
+      },
+      {
+        path: 'usedeferredvalue',
+        element: <UseDeferredValueHook />,
+        children: [
+          {
+            path: 'search',
+            element: <UseDeferredValueSearch />,
           },
         ],
       },

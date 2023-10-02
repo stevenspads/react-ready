@@ -382,6 +382,15 @@ const Home = () => {
         </div>
 
         <div className={styles.SubSection}>
+          <h3>useDeferredValue()</h3>
+          <ul>
+            <li>
+              <Link to="/performance-hooks/usedeferredvalue/search">useDeferredValue() for search</Link>
+            </li>
+          </ul>
+        </div>
+
+        <div className={styles.SubSection}>
           <h3>Profiling</h3>
           <ul>
             <li>
